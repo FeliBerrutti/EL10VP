@@ -1,0 +1,2031 @@
+@media(max-width: 370px){
+    #container{
+         width: auto;
+
+        #firstDiv{
+            width: 100%;
+            height: 600px;
+        }
+
+        #box{
+            width: 100%;
+            height: 100%;
+        }
+
+        #nav{
+            width: 15%;
+            height: 8%;
+        }
+
+
+        #navButton{
+            width: 100%;
+            height: 100%;
+            min-width: 55px;
+            min-height: 50px;
+        }
+
+        #navButton hr{
+            border-radius: 4px;
+        }
+
+        #navMenu{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            right: 4%;
+            top: 10%;
+            width: 80%;
+            max-height: 0;
+            transition: 1s;
+            overflow: hidden;
+        }
+
+        #navMenu.visible{
+            max-height: 100%;
+            height: auto;
+        }
+
+        .navMenuItem{
+            width: 90%;
+            height: 30px;
+            margin-bottom: 3.5%;
+            margin-top: 3.5%;
+        }
+
+        .navMenuItem:hover{
+            background: linear-gradient(to bottom, rgba(240,240,240,0.7), rgba(3, 65, 91, 0.5));
+        }
+
+        #textContainer{
+            margin-top: 12%;
+            width: 94%;
+            max-height: 0;
+        }
+
+        #textContainer.visible{
+            max-height: 90%;
+            height: 90%;
+        }
+
+        #contactContainer{
+            width: 80%;
+            max-height: 0;
+        }
+
+        #contactContainer.visible{
+            max-height: 99%;
+            height: 85%;
+        }
+
+        #contactOptionsContainer{
+            height: 85%;
+            width: 85%;
+            z-index: 400;
+        }
+
+        #contactText{
+            width: 90%;
+            height: 10%;
+        }
+
+        .contactIcon{
+            margin-top: 5%;
+            width: 65%;
+            height: 55%;
+        }
+
+        .contactOptions{
+            height: 40%;
+            width: 80%;
+            margin-bottom: 5%;
+            font-size: 75%;
+        }
+
+        .zoneContainer{
+            width: 90%;
+            min-width: 283px;
+            max-height: 10%;
+            height: 10%;
+            margin-bottom: 10%;
+        }
+
+        .zoneIcon{
+            width: 15%;
+            height: 75%;
+        }
+
+        .zoneIcon img{
+            width: 100%;
+            height: 100%;
+        }
+
+        .textZone{
+            padding: 1%;
+            margin-left: 1%;
+            margin-right: 1%;
+            height: 75%;
+            width: 82%;
+            font-size: 180%;
+        }
+
+        #aboutUsTitle{
+            min-width: 175px;
+        }
+
+        #wppIcon{
+            width: 20%;
+            height: 9.5%;
+            right: 3%;
+            bottom: 6%;
+            border-radius: 80%;
+        }
+
+        #wppIcon img{
+            width: 100%;
+            height: 100%;
+        }
+
+        #divServices{
+            margin-top: 3%;
+            width: 100%;
+            height: 600px;
+        }
+
+        #servicesTitle{
+            width: 79%;
+            height: 9%;
+            font-size: 130%;
+            margin-bottom: 5%;
+            margin-top: 5%;
+        }
+
+        #servicesCarrousel{
+            width: 95%;
+            height: 85%;
+            border-radius: 20px;
+        }
+
+        #carrousellTextContainer{
+            width: 99%;
+            height: 99%;
+        }
+
+        #carrousellText{
+            width: 85%;
+            height: 15%;
+            margin-bottom: 7%;
+            font-size: 200%;
+        }
+
+        #footer{
+            width: 100%;
+            height: 650px;
+            margin-top: 10%;
+            min-height: 600px;
+        }
+
+        .footerContainer{
+            width: 55%;
+            min-width: 135px;
+            height: 28%;
+        }
+
+        .footerTitle{
+            height: 15%;
+            width: 35%;
+            min-width: 120px;
+        }
+
+        .footerText{
+            width: 45%;
+            height: 15%;
+            padding: 2%;
+            margin-bottom: 2%;
+            min-width: 134px;
+        }
+
+        #footer hr{
+            width: 80%;
+        }
+
+        .footerIcon{
+            margin-right: 3%;
+            min-width: 10%;
+            height: 80%;
+        }
+
+        .contactOptionText{
+            margin-top: 10%;
+            width: 90%;
+            height: 15%;
+        }
+
+        #contactMail{
+            width: 98%;
+            max-height: 0;
+        }
+        #contactMail.visible{
+            margin-top: 15%;
+            max-height: 99%;
+            height: 75%;
+        }
+
+        .contactMailInput{
+            margin-top: 10%;
+            margin-bottom: 15%;
+            width: 90%;
+            height: 5%;
+        }
+
+        .contactMailInput input{
+            margin-left: 2%;
+            border: 2px solid black;
+            width: 50%;
+        }
+
+        #contactMailMSJ{
+            margin-top: 5%;
+            width: 90%;
+            height: 55%;
+        }
+
+        #contactMailMSJ input{
+            margin-top: 5%;
+            width: 90%;
+            height: 70%;
+        }
+
+        #contactMailMSJButton{
+            margin-top: 5%;
+            width: 30%;
+            height: 7%;
+
+        }
+    }
+} 
+
+/* @media(min-width: 400px) and (max-width:500px){
+    .contactOptions{
+        margin-top: 5%;
+        height: 60%;
+        width: 40%;
+        min-width: 50%;
+        margin-right: 5%;
+    }
+} */
+
+@media(min-width: 370px) and (max-width:600px){
+    
+    #container{
+        width: auto;
+
+        #firstDiv{
+            width: 100%;
+            height: 600px;
+        }
+
+        #box{
+            width: 100%;
+            height: 100%;
+        }
+
+        #nav{
+            width: 10%;
+            min-width: 60px;
+            height: 8%;
+        }
+
+
+        #navButton{
+            width: 100%;
+            height: 100%;
+        }
+
+        #navButton hr{
+            border-radius: 4px;
+            margin-bottom: 15%;
+        }
+
+        #navMenu{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            right: 4%;
+            top: 10%;
+            width: 60%;
+            max-height: 0;
+            transition: 1s;
+            overflow: hidden;
+        }
+
+        #navMenu.visible{
+            max-height: 90%;
+            height: auto;
+        }
+
+        .navMenuItem{
+            width: 90%;
+            height: 30px;
+            margin-bottom: 3.5%;
+            margin-top: 3.5%;
+        }
+
+        .navMenuItem:hover{
+            background: linear-gradient(to bottom, rgba(240,240,240,0.7), rgba(3, 65, 91, 0.5));
+        }
+
+        #textContainer{
+            margin-top: 12%;
+            width: 94%;
+            max-height: 0;
+        }
+
+        #textContainer.visible{
+            max-height: 90%;
+            height: 90%;
+        }
+
+        #contactContainer{
+            width: 99%;
+            max-height: 0;
+            z-index: 300;
+        }
+
+        #contactContainer.visible{
+            max-height: 99%;
+            height: 99%;
+        }
+
+        #contactText{
+            width: 90%;
+            height: 10%;
+            text-align: center;
+        }
+
+        .contactIcon{
+            margin-top: 5%;
+            width: 65%;
+            height: 55%;
+        }
+
+        .contactOptions{
+            height: 40%;
+            width: 35%;
+            margin-right: 5%;
+            font-size: 70%;
+        }
+
+        .zoneContainer{
+            width: 300px;
+            max-width: 300px;
+            height: 10%;
+            margin-bottom: 10%;
+        }
+
+        .zoneIcon{
+            width: 15%;
+            height: 80%;
+        }
+
+        .zoneIcon img{
+            width: 100%;
+            height: 100%;
+        }
+
+        #aboutUsTitle{
+            min-width: 175px;
+        }
+
+        .textZone{
+            padding: 1%;
+            margin-left: 1%;
+            margin-right: 1%;
+            height: 75%;
+            width: 82%;
+            font-size: 180%;
+        }
+
+        #wppIcon{
+            width: 20%;
+            height: 9.5%;
+            right: 3%;
+            bottom: 6%;
+            border-radius: 80%;
+        }
+
+        #wppIcon img{
+            width: 100%;
+            height: 100%;
+        }
+
+        #divServices{
+            margin-top: 3%;
+            width: 100%;
+            height: 600px;
+        }
+
+        #servicesTitle{
+            width: 79%;
+            height: 9%;
+            font-size: 130%;
+            margin-bottom: 5%;
+            margin-top: 5%;
+        }
+
+        #servicesCarrousel{
+            width: 95%;
+            height: 85%;
+            border-radius: 20px;
+        }
+
+        #carrousellTextContainer{
+            width: 99%;
+            height: 99%;
+        }
+
+        #carrousellText{
+            width: 85%;
+            height: 15%;
+            margin-bottom: 7%;
+            font-size: 200%;
+        }
+
+        #footer{
+            width: 100%;
+            height: 600px;
+            margin-top: 10%;
+        }
+
+        .footerContainer{
+            width: 90%;
+            height: 27%;
+        }
+
+        .footerTitle{
+            height: 15%;
+            width: 35%;
+        }
+
+        .footerText{
+            width: 45%;
+            height: 15%;
+            padding: 1%;
+        }
+
+        #footer hr{
+            width: 80%;
+        }
+
+        .footerIcon{
+            margin-right: 3%;
+            min-width: 15%;
+            height: 100%;
+        }
+
+        .contactOptionText{
+            margin-top: 10%;
+            width: 90%;
+            height: 15%;
+        }
+
+
+        #contactMail{
+            width: 98%;
+            max-height: 0;
+        }
+        
+        #contactMail.visible{
+            max-height: 99%;
+            height: 75%;
+            z-index: 300;
+        }
+
+        .contactMailInput{
+            margin-bottom: 2%;
+            width: 100%;
+            height: 20%;
+        }
+
+        .contactMailInput input{
+            margin-left: 2%;
+            width: 50%;
+        }
+
+        #contactMailMSJ{
+            margin-top: 5%;
+            width: 100%;
+            height: 250px;
+        }
+
+        #contactMailMSJ input{
+            margin-top: 5%;
+            width: 90%;
+            height: 70%;
+        }
+
+        #contactMailMSJButton{
+            margin-top: 5%;
+            width: 30%;
+            height: 7%;
+        }
+
+        #contactOptionsContainer{
+            padding: 1%;
+            width: 90%;
+            height: 80%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+
+@media(min-width: 601px) and (max-width: 800px){
+    #container{
+        width: auto;
+
+        #firstDiv{
+            width: 100%;
+            height: 600px;
+        }
+
+        #box{
+            width: 100%;
+            height: 100%;
+        }
+
+        #nav{
+            width: 10%;
+            height: 8%;
+        }
+
+
+        #navButton{
+            width: 100%;
+            height: 100%;
+        }
+
+        #navButton hr{
+            border-radius: 4px;
+            margin-bottom: 10%;
+        }
+
+        #navMenu{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            top: 3%;
+            right: 10%;
+            max-width: 0;
+            height: 4.2%;
+            transition: 0.5s;
+        }
+
+        #navMenu.visible{
+            max-width: 85%;
+            width: 85%;
+        }
+
+        .navMenuItem{
+            width: 13%;
+            margin-right: 2%;
+            font-size: 80%;
+        }
+
+        .navMenuItem:hover{
+            color: yellow;
+        }
+
+        #textContainer{
+            width: 80%;
+            max-height: 0;
+        }
+
+        #textContainer.visible{
+            max-height: 90%;
+            height: 75%;
+        }
+
+        #contactContainer{
+            width: 99%;
+            max-height: 0;
+        }
+
+
+        #contactContainer.visible{
+            max-height: 90%;
+            height: 90%;
+        }
+
+        #contactText{
+            width: 90%;
+            height: 10%;
+        }
+
+        .contactIcon{
+            margin-top: 5%;
+            width: 65%;
+            height: 55%;
+        }
+
+        .contactOptions{
+            height: 80%;
+            width: 45%;
+            margin-left: 3%;
+            margin-right: 3%;
+        }
+
+        #contactOptionsContainer{
+            margin-top: 8%;
+            padding: 2%;
+            width: 80%;
+            height: 60%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .zoneContainer{
+            width: 48%;
+            min-width: 300px;
+            max-height: 10%;
+            height: 10%;
+            margin-bottom: 5%;
+        }
+
+        .zoneIcon{
+            width: 10%;
+            height: 75%;
+        }
+
+        .zoneIcon img{
+            width: 100%;
+            height: 100%;
+        }
+
+        .textZone{
+            padding: 1%;
+            margin-left: 1%;
+            margin-right: 1%;
+            height: 75%;
+            width: 82%;
+            font-size: 180%;
+        }
+
+        #wppIcon{
+            width: 15%;
+            height: 13%;
+            right: 3%;
+            bottom: 6%;
+            border-radius: 80%;
+        }
+
+        #wppIcon img{
+            width: 100%;
+            height: 100%;
+        }
+
+        #divServices{
+            margin-top: 3%;
+            width: 100%;
+            height: 600px;
+        }
+
+        #servicesTitle{
+            width: 79%;
+            height: 9%;
+            font-size: 130%;
+            margin-bottom: 5%;
+            margin-top: 5%;
+        }
+
+        #servicesCarrousel{
+            width: 95%;
+            height: 85%;
+            border-radius: 20px;
+        }
+
+        #carrousellTextContainer{
+            width: 99%;
+            height: 99%;
+        }
+
+        #carrousellText{
+            width: 85%;
+            height: 15%;
+            margin-bottom: 7%;
+            font-size: 200%;
+        }
+
+        #footer{
+            width: 100%;
+            height: 600px;
+            margin-top: 10%;
+        }
+
+        .footerContainer{
+            width: 90%;
+            height: 27%;
+        }
+
+        .footerTitle{
+            height: 15%;
+            width: 35%;
+        }
+
+        .footerText{
+            width: 45%;
+            height: 15%;
+            padding: 1%;
+        }
+
+        #footer hr{
+            width: 80%;
+        }
+
+        .footerIcon{
+            margin-right: 3%;
+            min-width: 15%;
+            height: 100%;
+        }
+
+        .contactOptions{
+            min-width: 200px;
+        }
+
+        .contactOptionText{
+            margin-top: 10%;
+            width: 90%;
+            height: 15%;
+        }
+
+        #contactMail{
+            width: 98%;
+            max-height: 0;
+        }
+        
+        #contactMail.visible{
+            max-height: 99%;
+            height: 75%;
+        }
+
+        .contactMailInput{
+            margin-top: 2%;
+            margin-bottom: 2%;
+            width: 200%;
+            height: 20%;
+        }
+
+        .contactMailInput input{
+            margin-left: 2%;
+            width: 50%;
+        }
+
+        #contactMailMSJ{
+            margin-top: 5%;
+            width: 200%;
+            height: 400px;
+        }
+
+        #contactMailMSJ input{
+            margin-top: 5%;
+            width: 90%;
+            height: 70%;
+        }
+
+        #contactMailMSJButton{
+            margin-top: 5%;
+            width: 30%;
+            height: 7%;
+        }
+    }
+}
+
+
+@media (min-width: 801px) and (max-width: 1000px){
+    #container{
+        width: auto;
+
+        #firstDiv{
+            width: 100%;
+            height: 700px;
+        }
+
+        #box{
+            width: 100%;
+            height: 100%;
+        }
+
+        #nav{
+            width: 10%;
+            height: 8%;
+        }
+
+
+        #navButton{
+            width: 100%;
+            height: 100%;
+        }
+
+        #navButton hr{
+            border-radius: 4px;
+            margin-top: 10%;
+        }
+
+        #navMenu{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            top: 3%;
+            right: 10%;
+            max-width: 0;
+            height: 4.2%;
+            transition: 0.5s;
+        }
+
+        #navMenu.visible{
+            max-width: 80%;
+            width: 80%;
+        }
+
+        .navMenuItem{
+            width: 13%;
+            margin-right: 2%;
+        }
+
+        .navMenuItem:hover{
+            color: yellow;
+        }
+
+        #textContainer{
+            width: 70%;
+            max-height: 0;
+        }
+
+        #textContainer.visible{
+            max-height: 90%;
+            height: 80%;
+        }
+
+        #contactContainer{
+            width: 99%;
+            max-height: 0;
+        }
+
+        #contactContainer.visible{
+            max-height: 75%;
+            height: 70%;
+        }
+
+        #contactOptionsContainer{
+            margin-top: 8%;
+            padding: 2%;
+            width: 80%;
+            height: 60%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #contactText{
+            width: 90%;
+            height: 20%;
+            font-size: 150%;
+        }
+
+        .contactIcon{
+            margin-top: 5%;
+            width: 65%;
+            height: 55%;
+        }
+
+        .contactOptions{
+            height: 90%;
+            width: 35%;
+            margin-left: 3%;
+            margin-right: 3%;
+        }
+
+        .zoneContainer{
+            width: 50%;
+            min-width: 300px;
+            max-height: 10%;
+            height: 10%;
+            margin-bottom: 8%;
+        }
+
+        .zoneIcon{
+            width: 15%;
+            height: 80%;
+        }
+
+        .zoneIcon img{
+            width: 100%;
+            height: 100%;
+        }
+
+        .textZone{
+            padding: 1%;
+            margin-left: 1%;
+            margin-right: 1%;
+            height: 75%;
+            width: 82%;
+            font-size: 180%;
+        }
+
+        #wppIcon{
+            width: 15%;
+            height: 13%;
+            right: 3%;
+            bottom: 6%;
+            border-radius: 80%;
+        }
+
+        #wppIcon img{
+            width: 100%;
+            height: 100%;
+        }
+
+        #divServices{
+            margin-top: 3%;
+            width: 100%;
+            height: 700px;
+        }
+
+        #servicesTitle{
+            width: 79%;
+            height: 9%;
+            font-size: 130%;
+            margin-bottom: 5%;
+            margin-top: 5%;
+        }
+
+        #servicesCarrousel{
+            width: 100%;
+            height: 50%;
+            border-radius: 20px;
+        }
+
+        #carrousellTextContainer{
+            width: 99%;
+            height: 99%;
+        }
+
+        #carrousellText{
+            width: 85%;
+            height: 15%;
+            margin-bottom: 7%;
+            font-size: 200%;
+        }
+
+        #footer{
+            width: 100%;
+            height: 700px;
+            margin-top: 3%;
+        }
+
+        .footerContainer{
+            width: 90%;
+            height: 27%;
+        }
+
+        .footerTitle{
+            height: 15%;
+            width: 35%;
+        }
+
+        .footerText{
+            width: 45%;
+            height: 15%;
+            padding: 1%;
+        }
+
+        #footer hr{
+            width: 80%;
+        }
+
+        .footerIcon{
+            margin-right: 3%;
+            min-width: 15%;
+            height: 100%;
+        }
+
+        .contactOptionText{
+            margin-top: 10%;
+            width: 90%;
+            height: 15%;
+        }
+
+        #contactMail{
+            width: 98%;
+            max-height: 0;
+        }
+        
+        #contactMail.visible{
+            max-height: 99%;
+            height: 75%;
+        }
+
+        .contactMailInput{
+            margin-top: 2%;
+            margin-bottom: 2%;
+            width: 200%;
+            height: 20%;
+        }
+
+        .contactMailInput input{
+            margin-left: 2%;
+            width: 50%;
+        }
+
+        #contactMailMSJ{
+            margin-top: 5%;
+            width: 200%;
+            height: 400px;
+        }
+
+        #contactMailMSJ input{
+            margin-top: 5%;
+            width: 90%;
+            height: 70%;
+        }
+
+        #contactMailMSJButton{
+            margin-top: 5%;
+            width: 30%;
+            height: 7%;
+        }
+    }
+}
+
+
+
+@media (min-width: 1001px) and (max-width: 1200px){
+    #container{
+        width: auto;
+
+        #firstDiv{
+            width: 100%;
+            height: 700px;
+        }
+
+        #box{
+            width: 100%;
+            height: 100%;
+        }
+
+        #nav{
+            width: 8%;
+            height: 10%;
+        }
+
+
+        #navButton{
+            width: 100%;
+            height: 100%;
+        }
+
+        #navButton hr{
+            border-radius: 4px;
+            margin-bottom: 13%;
+        }
+
+        #navMenu{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            top: 3.5%;
+            right: 10%;
+            max-width: 0;
+            height: 5.5%;
+            transition: 0.5s;
+        }
+
+        #navMenu.visible{
+            min-height: 5px;
+            max-width: 80%;
+            width: 80%;
+        }
+
+        .navMenuItem{
+            width: 15%;
+            margin-right: 2%;
+        }
+
+        .navMenuItem:hover{
+            color: yellow;
+        }
+
+        #textContainer{
+            width: 80%;
+            max-height: 0;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #textContainer.visible{
+            max-height: 90%;
+            height: 75%;
+        }
+
+        #contactContainer{
+            width: 99%;
+            max-height: 0;
+        }
+
+        #contactContainer.visible{
+            max-height: 75%;
+            height: 70%;
+        }
+
+        #contactOptionsContainer{
+            margin-top: 8%;
+            padding: 2%;
+            width: 80%;
+            height: 60%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #contactText{
+            width: 90%;
+            height: 20%;
+            font-size: 150%;
+        }
+
+        .contactIcon{
+            margin-top: 5%;
+            width: 65%;
+            height: 55%;
+        }
+
+        .contactOptions{
+            height: 90%;
+            max-width: 250px;
+            width: 35%;
+            margin-left: 3%;
+            margin-right: 3%;
+        }
+
+        .zoneContainer{
+            width: 90%;
+            max-width: 300px;
+            max-height: 10%;
+            height: 10%;
+            margin-bottom: 5%;
+        }
+
+        .zoneIcon{
+            width: 20%;
+            height: 95%;
+
+        }
+
+        .zoneIcon img{
+            width: 100%;
+            height: 100%;
+        }
+
+        .textZone{
+            padding: 1%;
+            margin-left: 1%;
+            margin-right: 1%;
+            height: 75%;
+            width: 82%;
+            font-size: 180%;
+        }
+
+        #wppIcon{
+            width: 10%;
+            height: 13%;
+            right: 3%;
+            bottom: 6%;
+            border-radius: 80%;
+        }
+
+        #wppIcon img{
+            width: 100%;
+            height: 100%;
+        }
+
+        #divServices{
+            margin-top: 3%;
+            width: 100%;
+            height: 800px;
+        }
+
+        #servicesTitle{
+            width: 79%;
+            height: 9%;
+            font-size: 130%;
+            margin-bottom: 5%;
+            margin-top: 5%;
+        }
+
+        #servicesCarrousel{
+            width: 95%;
+            height: 40%;
+            border-radius: 20px;
+        }
+
+        #carrousellTextContainer{
+            width: 99%;
+            height: 99%;
+        }
+
+        #carrousellText{
+            width: 85%;
+            height: 15%;
+            margin-bottom: 7%;
+            font-size: 200%;
+        }
+
+        #footer{
+            width: 100%;
+            height: 800px;
+            margin-top: 3%;
+        }
+
+        .footerContainer{
+            width: 90%;
+            height: 27%;
+        }
+
+        .footerTitle{
+            height: 15%;
+            width: 35%;
+        }
+
+        .footerText{
+            width: 45%;
+            height: 15%;
+            padding: 1%;
+        }
+
+        #footer hr{
+            width: 80%;
+        }
+
+        .footerIcon{
+            margin-right: 3%;
+            min-width: 10%;
+            height: 100%;
+        }
+
+        .contactOptionText{
+            margin-top: 10%;
+            width: 90%;
+            height: 15%;
+        }
+
+        #contactMail{
+            width: 98%;
+            max-height: 0;
+        }
+        
+        #contactMail.visible{
+            max-height: 99%;
+            height: 75%;
+        }
+
+        .contactMailInput{
+            margin-top: 2%;
+            margin-bottom: 2%;
+            width: 200%;
+            height: 20%;
+        }
+
+        .contactMailInput input{
+            margin-left: 2%;
+            width: 50%;
+        }
+
+        #contactMailMSJ{
+            margin-top: 5%;
+            width: 200%;
+            height: 400px;
+        }
+
+        #contactMailMSJ input{
+            margin-top: 5%;
+            width: 90%;
+            height: 70%;
+        }
+
+        #contactMailMSJButton{
+            margin-top: 5%;
+            width: 30%;
+            height: 7%;
+        }
+    }
+}
+
+
+@media (min-width: 1201px){
+    #container{
+        width: 100%;
+
+        #firstDiv{
+            width: 100%;
+            height: 800px;
+        }
+
+        #box{
+            width: 100%;
+            height: 100%;
+        }
+
+        #nav{
+            width: 8%;
+            height: 10%;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #navButton{
+            width: 100%;
+            height: 100%;
+        }
+
+        #navButton hr{
+            border-radius: 4px;
+            margin-bottom: 13%;
+        }
+
+        #navMenu{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            top: 3.6%;
+            right: 10%;
+            max-width: 0;
+            height: 5%;
+            transition: 0.5s;
+            overflow: hidden;
+        }
+
+        #navMenu.visible{
+            max-width: 87%;
+            width: 87%;
+        }
+
+        .navMenuItem{
+            width: 13%;
+        }
+
+        .navMenuItem:hover{
+            color: yellow;
+        }
+
+        #textContainer{
+            width: 70%;
+            max-height: 0;
+            align-items: center;
+        }
+
+        #textContainer h1{
+            width:  95%;
+            height: 30%;
+            font-size: 390%;
+        }
+
+        #textContainer.visible{
+            max-height: 90%;
+            height: 90%;
+        }
+
+        #contactContainer{
+            width: 70%;
+            max-height: 0;
+        }
+
+        #contactContainer.visible{
+            max-height: 75%;
+            height: 70%;
+        }
+
+        #contactOptionsContainer{
+            margin-top: 8%;
+            padding: 2%;
+            width: 80%;
+            height: 60%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #contactText{
+            width: 90%;
+            height: 20%;
+            font-size: 150%;
+        }
+
+        .contactIcon{
+            margin-top: 5%;
+            width: 70%;
+            height: 55%;
+        }
+
+        .contactOptions{
+            height: 90%;
+            width: 35%;
+            margin-left: 3%;
+            margin-right: 3%;
+        }
+
+        .zoneContainer{
+            width: 70%;
+            max-height: 10%;
+            height: 10%;
+            margin-bottom: 5%;
+            font-size: 200%;
+        }
+
+        .zoneIcon{
+            width: 15%;
+            height: 90%;
+        }
+
+        .zoneIcon img{
+            width: 100%;
+            height: 100%;
+        }
+
+        .textZone{
+            padding: 1%;
+            margin-left: 1%;
+            margin-right: 1%;
+            height: 75%;
+            width: 82%;
+            font-size: 180%;
+        }
+
+        #wppIcon{
+            width: 10%;
+            height: 13%;
+            right: 3%;
+            bottom: 6%;
+            border-radius: 80%;
+        }
+
+        #wppIcon img{
+            width: 100%;
+            height: 100%;
+        }
+
+        #divServices{
+            margin-top: 1%;
+            width: 100%;
+            height: 800px;
+        }
+
+        #servicesCarrousel{
+            width: 100%;
+            height: 50%;
+        }
+
+        #carrousellTextContainer{
+            width: 99%;
+            height: 99%;
+        }
+
+        #carrousellText{
+            width: 85%;
+            height: 15%;
+            margin-bottom: 7%;
+            font-size: 200%;
+        }
+
+        #footer{
+            width: 100%;
+            height: 300px;
+            margin-top: 1%;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #footer hr{
+            display: none;
+        }
+
+        .footerContainer{
+            width: 15%;
+            height: 70%;
+            justify-content: center;
+            align-items: center;
+            margin: 3%;
+        }
+
+        .footerTitle{
+            height: 15%;
+            width: 70%;
+            justify-content: center;
+        }
+
+        .footerText{
+            width: 90%;
+            height: 15%;
+            padding: 1%;
+            margin-bottom: 3%;
+        }
+
+        #footer hr{
+            width: 80%;
+        }
+
+        .footerIcon{
+            margin-right: 3%;
+            min-width: 10%;
+            height: 100%;
+        }
+
+        .contactOptionText{
+            margin-top: 10%;
+            width: 90%;
+            height: 15%;
+        }
+
+        #contactForm{
+            height: 95%;
+            width: 90%;
+        }
+
+        #contactMail{
+            width: 70%;
+            max-height: 0;
+        }
+        #contactMail.visible{
+            max-height: 80%;
+            height: 70%;
+            z-index: 1;
+        }
+
+        .contactMailInput{
+            margin-top: 1%;
+            margin-bottom: 2%;
+            width: 80%;
+            height: 10%;
+            font-size: 120%;
+        }
+
+        .contactMailInput input{
+            margin-left: 2%;
+            border: 2px solid black;
+            width: 40%;
+            height: 30%;
+        }
+
+        #contactMailMSJ{
+            margin-top: 1%;
+            width: 80%;
+            height: 35%;
+        }
+
+        #contactMailMSJ input{
+            margin-top: 5%;
+            width: 90%;
+            height: 70%;
+        }
+
+        #contactMailMSJButton{
+            margin-top: 2%;
+            width: 20%;
+            height: 5%;
+        }
+
+        #aboutUsDiv{
+            height: 40%;
+            width: 93%;
+        }
+
+        #aboutUsTitle{
+            height: 20%;
+            width: 25%;
+            margin-top: 0.5%;
+        }
+
+        #aboutUsText{
+            height: 73%;
+            width: 90%;
+            margin-bottom: 1%;
+        }
+    }
+}
+
+
+
+body{
+    background: linear-gradient(to right, rgba(2, 1, 49, 0.9), rgba(4, 2, 78, 0.9), rgba(8, 4, 126, 0.9));
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: rgba(230,230,230,0.5);
+    color: white;
+}
+
+#container{
+    padding: 0.1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+#firstDiv{
+    top: 0;
+    padding: 1px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-image: url('docs/font.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#box{
+    background: rgba(2,2,2,0.7);
+
+    padding: 1px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav{
+    right: 3%;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    color: rgba(230,230,230,0.8);
+}
+
+
+
+#navButton{
+    border-radius: 10%;
+    margin-right: 3%;
+    border: 3px solid white;
+    background-color: rgba(3,3,3,0.1);
+    color: white;
+    background-color: black;
+    z-index: 1000;
+}
+
+#navButton:hover{
+    cursor: pointer;
+}
+
+#navButton hr{
+    border: 2px solid rgba(230,230,230,0.8);
+}
+
+#navMenu{
+    opacity: 0;
+    padding: 1%;
+    background-color: black;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    border: 2px solid white;
+    border-radius: 20px;
+    z-index: 1000;
+}
+
+#navMenu.visible{
+    opacity: 1;
+    display: flex;
+}
+
+.navMenuItem{
+    padding: 1%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navMenuItem:hover{
+    color: yellow;
+    cursor: pointer;
+}
+
+#textContainer{
+    opacity: 0;
+    padding: 1px;
+    /* color: rgba(5,5,5,0.9); */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.1s;
+    display: flex;
+}
+
+#textContainer.visible{
+    opacity: 1;
+}
+
+.zoneContainer{
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.zoneIcon{
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.textZone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#wppIcon{
+    padding: 0.1%;
+    position: fixed;
+    border: 2px solid green;
+    overflow: hidden;
+}
+
+#wppIcon:hover{
+    cursor: pointer;
+}
+
+#divServices{
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#servicesTitle{
+    padding: 1px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#servicesCarrousel{
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+}
+
+#carrousellTextContainer{
+    background-color: rgba(8,8,8,0.9);
+    padding: 1%;
+    /* background: linear-gradient(to bottom, rgba(1,1,1,0.9),rgba(4,4,4,0.5),
+                                        rgba(2,2,2,0.5),rgba(220,220,220,0.6)); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    color: wheat;
+}
+
+#carrousellText{
+    padding: 1%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer{
+    background: rgba(2,2,2,0.9);
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.footerContainer{
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerTitle{
+    padding: 1%;
+    justify-content: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerText{
+    max-width: 145px;
+    padding: 0.1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footerText:hover{
+    cursor: pointer;
+}
+
+.footerIcon{
+    justify-content: center;
+}
+
+.footerIcon img{
+    width: 100%;
+    height: 100%;
+}
+
+#contactContainer{
+    opacity: 0;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 1s;
+}
+
+#contactContainer.visible{
+    opacity: 1;
+}
+
+#contactOptionsContainer{
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contactText{
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contactOptions{
+    padding: 1%;
+    border: 5px solid white;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactOptions:hover{
+    cursor: pointer;
+    box-shadow: 0 0 100px 20px rgb(3,3,3);
+    background: linear-gradient(to right, rgba(2,2,2,0.5), rgba(200,200,200,0.4),rgba(2,2,2,0.5));
+}
+
+.contactIcon{
+    padding: 1%;
+}
+
+.contactIcon img{
+    width: 100%;
+    height: 100%;
+}
+
+.contactOptionText{
+    padding: 2%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#contactText{
+    text-align: center;
+}
+
+#contactMail{
+    padding: 1%;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 1s;
+}
+
+#contactMail.visible{
+    opacity: 1;
+}
+
+.contactMailInput{
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactMailInput input{
+    border-radius: 20px;
+}
+
+#contactMailMSJ{
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contactMailMSJ input{
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+#contactMailMSJButton{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contactMailMSJButton:hover{
+    cursor: pointer;
+}
+
+
+
+#contactForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#aboutUsDiv{
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+
+#aboutUsTitle{
+    padding: 1%;
+    height: 20%;
+    width: 25%;
+    margin-top: 0.5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#aboutUsText{
+    padding: 1%;
+    height: 73%;
+    width: 90%;
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
