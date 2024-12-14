@@ -55,6 +55,7 @@ function handleFollowContainer(){
 };
 
 function openFollowContainer(){
+    closeNavMenu();
     closeContact();
     closeZone();
     if(!followContainer.classList.contains('visible')){
@@ -223,6 +224,18 @@ navItemMaps.addEventListener('click',goMaps);
 const navItemFollow = document.getElementById('navItemFollow');
 
 navItemFollow.addEventListener('click',openFollowContainer);
+
+//BOTON SEGUINOS INSTAGRAM
+
+const followIG = document.getElementById('followIG');
+
+followIG.addEventListener('click',goIG);
+
+//BOTON SEGUINOS FACEBOOK
+
+const followFB = document.getElementById('followFB');
+
+followFB.addEventListener('click',goFB);
 
 // navItemFollow.addEventListener('click',goIG);
 
