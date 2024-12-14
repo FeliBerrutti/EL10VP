@@ -103,6 +103,19 @@
             font-size: 75%;
         }
 
+        #followContainer{
+            flex-direction: column;
+            width: 90%;
+            max-width: 250px;
+            max-height: 0;
+        }
+
+        #followContainer .visible{
+            max-height: 500px;
+            height: 78%;
+        }
+
+
         .zoneContainer{
             width: 90%;
             min-width: 283px;
@@ -379,6 +392,27 @@
             width: 35%;
             margin-right: 5%;
             font-size: 70%;
+        }
+
+        #followContainer{
+            flex-direction: column;
+            width: 80%;
+            max-height: 0;
+            
+        }
+
+        #followContainer .visible{
+            height: 80%;
+            max-height: 80%;
+        }
+
+        
+        #followContainer .contactOptions{
+            width: 60%;
+            max-width: 200px;
+            max-height: 300px;
+            height: 40%;
+            margin-bottom: 7%;
         }
 
         .zoneContainer{
@@ -664,6 +698,27 @@
             justify-content: center;
         }
 
+        #followContainer{
+            width: 90%;
+            max-height: 0;
+            flex-direction: row;
+        }
+
+        #followContainer.visible{
+            max-height: 70%;
+            height: 70%;
+        }
+
+        #followContainer .contactOptions{
+            min-width: 220px;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        #followContainer .contactIcon{
+            min-width: 200px;
+        }
+
         .zoneContainer{
             width: 48%;
             min-width: 300px;
@@ -933,6 +988,25 @@
             width: 35%;
             margin-left: 3%;
             margin-right: 3%;
+        }
+
+        #followContainer{
+            width: 90%;
+            max-height: 0;
+        }
+
+        #followContainer.visible{
+            height: 70%;
+            max-height: 70%;
+        }
+
+        #followContainer .contactOptions{
+            min-width: 300px;
+            font-size: 150%;
+        }
+
+        #followContainer .contactIcon{
+            min-width: 250px;
         }
 
         .zoneContainer{
@@ -1205,6 +1279,26 @@
             margin-right: 3%;
         }
 
+        #followContainer{
+            width: 90%;
+            max-height: 0;
+        }
+
+        #followContainer .visible{
+            height: 70%;
+            max-height: 70%;
+        }
+
+        #followContainer .contactOptions{
+            min-width: 320px;
+            font-size: 150%;
+            text-align: center;
+        }
+        
+        #followContainer .contactIcon{
+            min-width: 250px;
+        }
+
         .zoneContainer{
             width: 90%;
             max-width: 300px;
@@ -1475,6 +1569,22 @@
             width: 35%;
             margin-left: 3%;
             margin-right: 3%;
+        }
+
+        #followContainer{
+            max-height: 0;
+            width: 95%;
+        }
+
+        #followContainer .visible{
+            max-height: 80%;
+            height: 80%;
+        }
+
+        #followContainer .contactOptions{
+            min-width: 500px;
+            text-align: center;
+            font-size: 200%;
         }
 
         .zoneContainer{
@@ -1765,15 +1875,29 @@ body{
     padding: 1px;
     /* color: rgba(5,5,5,0.9); */
     text-align: center;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
-    transition: 0.1s;
-    display: flex;
+    transition: 0.5s;
 }
 
 #textContainer.visible{
     opacity: 1;
+    display: flex;
+}
+
+#followContainer{
+    opacity: 1;
+    padding: 2%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    transition: 0.1s;
+}
+
+#followContainer .visible{
+    opacity: 1;
+    display: flex;
 }
 
 .zoneContainer{
@@ -1901,7 +2025,7 @@ body{
 #contactContainer{
     opacity: 0;
     padding: 1%;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     transition: 1s;
@@ -1909,6 +2033,7 @@ body{
 
 #contactContainer.visible{
     opacity: 1;
+    display: flex;
 }
 
 #contactOptionsContainer{
@@ -1936,6 +2061,7 @@ body{
     flex-direction: column;
     align-items: center;
     background: linear-gradient(to right, rgba(2,2,2,0.5), rgba(200,200,200,0.4),rgba(2,2,2,0.5));
+    text-align: center;
 }
 
 .contactOptions:hover{

@@ -42,6 +42,32 @@ var contactContainer = document.getElementById('contactContainer');
 //div contacto mail
 var contactMail = document.getElementById('contactMail');
 
+//div seguinos
+
+var followContainer = document.getElementById('followContainer');
+
+function handleFollowContainer(){
+    if(followContainer.classList.contains('visible')){
+        followContainer.classList.remove('visible');
+    }else{
+        followContainer.classList.add('visible');
+    };
+};
+
+function openFollowContainer(){
+    closeContact();
+    closeZone();
+    if(!followContainer.classList.contains('visible')){
+        followContainer.classList.add('visible');
+    };
+};
+
+function closeFollowContainer(){
+    if(followContainer.classList.contains('visible')){
+        followContainer.classList.remove('visible');
+    };
+};
+
 
 //CARROUSEL DE IMAGENES SERVICIOS
 //Imagenes
@@ -113,10 +139,11 @@ navItemInfo.addEventListener('click', handleInfoClick);
 const navItemZone = document.getElementById('navItemZone');
 
 function showZone(){
-    navButton.scrollIntoView({behavior:"smooth"});
+    divBox.scrollIntoView({behavior:"smooth"});
     closeNavMenu();
     closeContact();
     closeContactMail();
+    closeFollowContainer();
     if(!textContainer.classList.contains('visible')){
         textContainer.classList.add('visible');
     }
@@ -138,7 +165,7 @@ function showContact(){
     closeNavMenu();
     closeZone();
     closeContactMail();
-    
+    closeFollowContainer();
     if(!contactContainer.classList.contains('visible')){
         contactContainer.classList.add('visible');
     }
@@ -192,10 +219,12 @@ const navItemMaps = document.getElementById('navItemMaps');
 
 navItemMaps.addEventListener('click',goMaps);
 
-// //BOTON INSTAGRAM
-// const navItemIG = document.getElementById('navItemIG');
+// // //BOTON SEGUINOS
+// const navItemFollow = document.getElementById('navItemFollow');
 
-// navItemIG.addEventListener('click',goIG);
+// navItemFollow.addEventListener('click',openFollowContainer);
+
+// navItemFollow.addEventListener('click',goIG);
 
 // //BOTON FACEBOOK
 // const navItemFB = document.getElementById('navItemFB');
