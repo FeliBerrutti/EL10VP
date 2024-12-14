@@ -1875,7 +1875,7 @@ body{
     padding: 1px;
     /* color: rgba(5,5,5,0.9); */
     text-align: center;
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
     transition: 0.5s;
@@ -1883,13 +1883,12 @@ body{
 
 #textContainer.visible{
     opacity: 1;
-    display: flex;
 }
 
 #followContainer{
-    opacity: 1;
+    opacity: 0;
     padding: 2%;
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
     transition: 0.1s;
@@ -1897,7 +1896,6 @@ body{
 
 #followContainer .visible{
     opacity: 1;
-    display: flex;
 }
 
 .zoneContainer{
@@ -2025,7 +2023,7 @@ body{
 #contactContainer{
     opacity: 0;
     padding: 1%;
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
     transition: 1s;
@@ -2033,7 +2031,6 @@ body{
 
 #contactContainer.visible{
     opacity: 1;
-    display: flex;
 }
 
 #contactOptionsContainer{

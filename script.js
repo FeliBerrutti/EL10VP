@@ -219,10 +219,10 @@ const navItemMaps = document.getElementById('navItemMaps');
 
 navItemMaps.addEventListener('click',goMaps);
 
-// // //BOTON SEGUINOS
-// const navItemFollow = document.getElementById('navItemFollow');
+// //BOTON SEGUINOS
+const navItemFollow = document.getElementById('navItemFollow');
 
-// navItemFollow.addEventListener('click',openFollowContainer);
+navItemFollow.addEventListener('click',openFollowContainer);
 
 // navItemFollow.addEventListener('click',goIG);
 
