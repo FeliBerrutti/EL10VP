@@ -585,10 +585,11 @@
             flex-direction: row;
             align-items: center;
             justify-content: center;
-            top: 3%;
+            top: 3.3%;
             right: 10%;
             max-width: 0;
             height: 4.2%;
+            min-height: 38px;
             transition: 0.5s;
         }
 
@@ -856,10 +857,11 @@
             flex-direction: row;
             align-items: center;
             justify-content: center;
-            top: 3%;
+            top: 4%;
             right: 10%;
             max-width: 0;
             height: 4.2%;
+            min-height: 38px;
             transition: 0.5s;
         }
 
@@ -1120,7 +1122,7 @@
             flex-direction: row;
             align-items: center;
             justify-content: center;
-            top: 3.5%;
+            top: 4%;
             right: 10%;
             max-width: 0;
             height: 5.5%;
@@ -1389,7 +1391,7 @@
             flex-direction: row;
             align-items: center;
             justify-content: center;
-            top: 3.6%;
+            top: 3.5%;
             right: 10%;
             max-width: 0;
             height: 5%;
