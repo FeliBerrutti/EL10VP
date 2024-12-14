@@ -136,6 +136,8 @@
 
         #wppIcon{
             width: 20%;
+            min-width: 70px;
+            min-height: 65px;
             height: 9.5%;
             right: 3%;
             bottom: 6%;
@@ -411,6 +413,10 @@
 
         #wppIcon{
             width: 20%;
+            min-width: 75px;
+            min-height: 65px;
+            max-width: 100px;
+            max-height: 90px;
             height: 9.5%;
             right: 3%;
             bottom: 6%;
@@ -959,6 +965,8 @@
         #wppIcon{
             width: 15%;
             height: 13%;
+            max-width: 120px;
+            max-height: 110px;
             right: 3%;
             bottom: 6%;
             border-radius: 80%;
