@@ -562,17 +562,21 @@
         #nav{
             width: 10%;
             height: 8%;
+            min-height: 65px;
+            min-width: 70px;
         }
 
 
         #navButton{
             width: 100%;
             height: 100%;
+            justify-content: center;
+            align-items: center;
         }
 
         #navButton hr{
             border-radius: 4px;
-            margin-bottom: 10%;
+            margin-bottom: 16%;
         }
 
         #navMenu{
@@ -826,17 +830,24 @@
         #nav{
             width: 10%;
             height: 8%;
+            right: 0.5%;
+            top: 3%;
         }
 
 
         #navButton{
             width: 100%;
             height: 100%;
+            min-height: 60px;
+            max-width: 80px;
+            justify-content: center;
+            align-items: center;
         }
 
         #navButton hr{
             border-radius: 4px;
-            margin-top: 10%;
+            margin-bottom: 15%;
+            
         }
 
         #navMenu{
@@ -1086,12 +1097,16 @@
         #nav{
             width: 8%;
             height: 10%;
+            min-height: 70px;
+            min-width: 70px;
         }
 
 
         #navButton{
             width: 100%;
             height: 100%;
+            justify-content: center;
+            align-items: center;
         }
 
         #navButton hr{
@@ -1352,11 +1367,15 @@
             height: 10%;
             align-items: center;
             justify-content: center;
+            min-height: 70px;
+            min-width: 70px;
         }
 
         #navButton{
             width: 100%;
             height: 100%;
+            justify-content: center;
+            align-items: center;
         }
 
         #navButton hr{
@@ -1479,7 +1498,7 @@
             height: 13%;
             right: 3%;
             bottom: 6%;
-            border-radius: 80%;
+            border-radius: 100%;
         }
 
         #wppIcon img{
@@ -1693,7 +1712,8 @@ body{
 }
 
 #navButton hr{
-    border: 2px solid rgba(230,230,230,0.8);
+    border: 2px solid rgba(200,200,200,0.8);
+    box-shadow: 2px 4px 0 1px rgba(100,100,100,0.5);
 }
 
 #navMenu{
