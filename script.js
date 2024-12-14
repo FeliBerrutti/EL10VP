@@ -43,8 +43,11 @@ var contactContainer = document.getElementById('contactContainer');
 var contactMail = document.getElementById('contactMail');
 
 //div seguinos
-
 var followContainer = document.getElementById('followContainer');
+
+//DIV WPP FIXED
+const wppIcon = document.getElementById('wppIcon');
+wppIcon.addEventListener('click',goWPP);
 
 function handleFollowContainer(){
     if(followContainer.classList.contains('visible')){
